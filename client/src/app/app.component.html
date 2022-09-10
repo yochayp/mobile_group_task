@@ -1,0 +1,21 @@
+<nav class="navbar">
+    <div class="container-fluid">
+        <div class="d-flex align-item-center">
+
+            <a class="navbar-brand" href="#">
+                <img src="../assets/images/mobileGroupLogo.png" alt="" class="d-inline-block align-text-top">
+            </a>
+            <button class="btn">
+
+                <a (click)="goToMap()">Map</a>
+            </button>
+            <button class="btn">
+
+                <a (click)="goToLocations()">Locations</a>
+            </button>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>

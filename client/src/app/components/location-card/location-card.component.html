@@ -1,0 +1,13 @@
+<div class="card my-1 w-50">
+    <div class="card-body d-flex flex-column ">
+      <div>
+          click time: {{ location.clickTime | date:'M/d/Y, H:mm'}}
+      </div>
+      <div>
+          lon: {{ location.coordinates.lon }}
+      </div>
+      <div>
+          lat: {{ location.coordinates.lat }}
+      </div>
+    </div>
+  </div>
