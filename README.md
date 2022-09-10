@@ -4,7 +4,7 @@
 backend
 
 * create .env file
-* cunfigure elastic - ELASTIC_NODE,ELASTIC_USERNAME,ELASTIC_PASWORD on .env file.
+* cunfigure elastic - ELASTIC_NODE, ELASTIC_USERNAME, ELASTIC_PASWORD on .env file.
 * initiale elastic db locally.
 * cunfigure json as db - JSON_DB_PATH on .env file.
 * npm i
